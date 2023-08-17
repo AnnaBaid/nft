@@ -1,0 +1,19 @@
+.sign-in {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    gap: 20px;
+    &__info {
+        flex-grow: 1;
+        flex-shrink: 0;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    &__bg {
+        flex: 0 1 768px;
+    }
+}
