@@ -1,4 +1,5 @@
 import Google from "./icon/Google";
+import Button from "./UI/Button";
 
 export default function Form() {
   
@@ -22,8 +23,8 @@ export default function Form() {
         <a href="/">Forgot Password?</a>
       </div>
       <div className="form__btn">
-        <Button className='btn btn_primary'>Sign in</Button>
-        <Button className='btn btn_secondary'> 
+        <Button className='btn _primary'>Sign in</Button>
+        <Button className='btn _secondary'> 
           <Google />
           Sign in with Google
         </Button>
