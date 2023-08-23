@@ -1,0 +1,41 @@
+.forms {
+    display: block;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+        color: #344054;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+
+    }
+    &__input-wraper {
+        position: relative;
+    }
+
+    &__input-svg {
+        cursor: pointer;
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        span {
+            display: flex;
+        }
+    }
+    &__input {
+        height: 44px;
+        width: 100%;
+        display: block;
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: 1px solid #D0D5DD;
+        background: transparent;
+    }
+
+}
